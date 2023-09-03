@@ -75,9 +75,12 @@ body {
   box-sizing: border-box
 }
 
-
 .mySlides {
-  display: none;
+ display:none;
+}
+
+#slide1 {
+  display:block
 }
 
 img {
@@ -87,7 +90,17 @@ img {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: auto
+}
+
+.fade {
+animation-name: fade;
+animation-duration: 2s;
+}
+
+@keyframes fade {
+from {opacity: .5}
+to {opacity: 1}
 }
 
 .prev,
