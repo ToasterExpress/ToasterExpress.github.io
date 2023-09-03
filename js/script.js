@@ -42,7 +42,6 @@ function displaySlides() {
     slides[i].style.display = "none";
   }
   if (slideIndex >= slides.length) {
-    console.log("reset");
     slideIndex = 0;
   }
   slides[slideIndex].style.display = "block";
