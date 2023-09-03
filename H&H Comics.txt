@@ -1,0 +1,23 @@
+H&H Comics
+----------
+
+-My biggest concerns are these: is there a way to build a better timeline page that can update at the top, and is there a way to quickly import blog posts from another site.
+
+-Import blogs
+
+-Home
+-Great Scott! Comics
+-Great Scott! Games
+-Resources
+-News & Events
+-Blog
+-About
+
+-(optional) store front
+
+Current Site
+------------
+https://scottenkainen.wixsite.com/great-scott-press
+
+scottenkainen@gmail.com
+4Trip2learn
