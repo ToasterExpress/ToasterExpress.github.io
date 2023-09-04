@@ -77,7 +77,7 @@ body {
 
 .mySlides {
  display:none;
- border: solid black 3px;
+ 
 }
 
 #slide1 {
@@ -99,13 +99,18 @@ img {
   border: solid black 3px;
 }
 
-
 .slideshow-container .slideImg {
   width: auto;
   height: 100%;
   display:block;
 
 }
+
+.mySlides {
+object-fit: contain;
+float: center;
+}
+
 .fade {
 animation-name: fade;
 animation-duration: 2s;
@@ -144,7 +149,7 @@ to {opacity: 1}
 
 .text {
   color: #f2f2f2;
-  font-size: 35px;
+  font-size: 200%;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
