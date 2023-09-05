@@ -10,10 +10,19 @@ H&H Comics
 -Great Scott! Games
 -Resources
 -News & Events
--Blog
 -About
+-Blog
+-Patreon
 
 -(optional) store front
+
+Additional notes
+----------------
+That can be slide 3, and the slide 3 cover can be slide 1
+
+In the corner menu, I think there should be a link to the 
+Patreon page right under the Blog page.
+
 
 Current Site
 ------------
