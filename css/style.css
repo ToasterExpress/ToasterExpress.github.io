@@ -89,8 +89,8 @@ img {
 }
 
 .slideshow-container {
-  max-width: 900px;
-  max-height: 30em;
+  max-width: 600px;
+  max-height: 70em;
   height: 100%;
   position: relative;
   margin: auto;
