@@ -47,5 +47,13 @@ function displaySlides() {
   slides[slideIndex].style.display = "block";
   showSlides(slideIndex);
   slideIndex++;
+  populateNumberText();
   setTimeout(displaySlides, 5000);
+}
+
+//Function that get's the element numberText and populates it based on the number of slides
+function populateNumberText() {
+  const slides = document.getElementsByClassName("mySlides");
+  let numberTexts = document.getElementsByClassName("numbertext");
+  numberTexts[slideIndex-1].innerHTML = slideIndex + " / " + slides.length;
 }
