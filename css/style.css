@@ -233,3 +233,55 @@ to {opacity: 1}
   padding: 5px;
   box-shadow: 1px 0px 5px;
 }
+
+.comicContainer {
+  position: relative;
+  width: 25%;
+  max-width: 400px;
+  padding: 10px;
+  margin:5px;
+  float:left;
+
+}
+
+.comicContainer img {
+  width:100%;
+  height: auto;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.btn {
+  width: 8em;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  text-align: center;
+  margin: 2px 11% 2px 11%;
+  display:flex;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: flex-start;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  order: 5;
+  flex-basis: auto;
+  align-self: flex-start;
+}

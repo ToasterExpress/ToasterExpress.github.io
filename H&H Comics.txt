@@ -18,11 +18,19 @@ H&H Comics
 
 Additional notes
 ----------------
-That can be slide 3, and the slide 3 cover can be slide 1
 
 In the corner menu, I think there should be a link to the 
 Patreon page right under the Blog page.
 
+I've been thinking about how to better organize the Great Scott! Comics page.
+
+I'm thinking it should be a split page that links on the left 
+to "LEARN ABOUT THE GOLDEN AGE OF COMICS" and the right side 
+that says "BUY THE GOLDEN AGE OF COMICS."
+
+Rather, I think it should be two hypertexting images side by side.
+Each takes you to separate page where you can read more.
+The images could be Funny Picture Stories #5 and #6 side by side.
 
 Current Site
 ------------
