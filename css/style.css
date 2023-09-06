@@ -271,6 +271,7 @@ to {opacity: 1}
   font-family: Comicfont, Helvetica, sans-serif;
   font-weight: normal;
   justify-content: center;
+  text-decoration: none;
 }
 
 .column {
