@@ -251,6 +251,7 @@ img {
   margin-bottom: 10%;
   padding: 5px;
   box-shadow: 1px 0px 5px;
+  overflow:hidden;
 }
 
 .comicContainer {
@@ -317,16 +318,16 @@ img {
   object-fit: contain;
 }
 
-.gameContainer1 {
+.gameContainer {
   position: relative;
   width: 25%;
   max-width: 300px;
   height: auto;
-  padding: 10px;
   margin: 5px;
+  border: solid black 1px;  
 }
 
-.gameContainer1 img {
+.gameContainer img {
   width: 100%;
   height: auto;
   text-align: start;
@@ -336,23 +337,19 @@ img {
   object-fit: contain;
 }
 
-.gameContainer2 {
-  position: relative;
-  width: 25%;
-  max-width: 300px;
-  height: auto;
-  padding: 10px;
-  margin: 5px;
+.gameContainer .ebook {
+  /* force links to bottom of container but remain in order*/
+  position:absolute;
+  bottom:0;
+  width:49%;
 }
 
-.gameContainer2 img {
-  width: 100%;
-  height: auto;
-  text-align: start;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  object-fit: contain;
+.gameContainer .paper {
+  /* force links to bottom of container but remain in order*/
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:49%;
 }
 
 .gameRow {
@@ -363,10 +360,52 @@ img {
 }
 
 .paragraph {
-  border: solid;
   width: 100%; 
   max-width: 100%; 
   height: auto; 
   display: flex;
   flex-direction: column;
+}
+
+.imgBox{
+  width: 100%; 
+  max-width: 100%; 
+  height:50%;
+  max-height:50%;
+  height: auto; 
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.contentImg{
+  width:auto;
+  max-width:100%;
+  max-height: 60vh;
+  height: auto;
+  margin:auto;
+  padding-top:10px;
+}
+
+.contentLeft{
+  float:left;
+  width:100%;
+  max-width:25%;
+  height:50%;
+  max-height:50%;
+  height: auto; 
+  padding:10px;
+}
+
+.contentRight{
+  float:right;
+  width:100%;
+  max-width:75%;
+  height:50%;
+  max-height:50%;
+  height: auto; 
+  vertical-align: middle;
+  padding:10px;
 }
