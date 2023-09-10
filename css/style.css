@@ -8,8 +8,13 @@ h2 {
   font-weight: normal;
 }
 
+h3 {
+  font-family: heyComic, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
 body {
-  font-family: Comicfont, Helvetica, sans-serif;
+  font-family: heyComic, Helvetica, sans-serif;
   font-weight: normal;
   background-color: #134366;
 }
@@ -66,8 +71,15 @@ body {
   src: url("../fonts/BADABB.TTF");
 }
 
+@font-face {
+  font-family: heyComic;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Hey\ Comic.ttf");
+}
+
 .headmessage {
-  font-family: comicFont;
+  font-family: comicFont, heyComic, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -76,12 +88,12 @@ body {
 }
 
 .mySlides {
- display:none;
- 
+  display: none;
+
 }
 
 #slide1 {
-  display:block
+  display: block
 }
 
 img {
@@ -102,23 +114,28 @@ img {
 .slideshow-container .slideImg {
   width: auto;
   height: 100%;
-  display:block;
+  display: block;
 
 }
 
 .mySlides {
-object-fit: contain;
-float: center;
+  object-fit: contain;
+  float: center;
 }
 
 .fade {
-animation-name: fade;
-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
-from {opacity: .5}
-to {opacity: 1}
+  from {
+    opacity: .5
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 .prev,
@@ -165,7 +182,7 @@ to {opacity: 1}
   position: absolute;
   top: 0;
   -webkit-text-stroke: 1px black;
-  display:block;
+  display: block;
 }
 
 .dot {
@@ -227,7 +244,7 @@ to {opacity: 1}
   font-weight: normal;
 }
 
-.content{
+.content {
   background-color: #F6FAF4;
   margin-left: 3%;
   margin-right: 3%;
@@ -241,13 +258,13 @@ to {opacity: 1}
   width: 25%;
   max-width: 400px;
   padding: 10px;
-  margin:5px;
+  margin: 5px;
   float: left;
   text-align: center;
 }
 
 .comicContainer img {
-  width:100%;
+  width: 100%;
   height: auto;
   text-align: center;
 }
@@ -267,8 +284,8 @@ to {opacity: 1}
   border-radius: 2px;
   text-align: center;
   margin: 2px 0% 2px 0%;
-  display:flex;
-  font-family: Comicfont, Helvetica, sans-serif;
+  display: flex;
+  font-family: comicFont, heyComic, Helvetica, sans-serif;
   font-weight: normal;
   justify-content: center;
   text-decoration: none;
@@ -283,7 +300,7 @@ to {opacity: 1}
 .row {
   flex-direction: row;
   justify-content: center;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -291,4 +308,65 @@ to {opacity: 1}
   order: 5;
   flex-basis: auto;
   align-self: flex-start;
+}
+
+.box1 {
+  width: 100%; 
+  max-width: 100%; 
+  height: auto; 
+  object-fit: contain;
+}
+
+.gameContainer1 {
+  position: relative;
+  width: 25%;
+  max-width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+}
+
+.gameContainer1 img {
+  width: 100%;
+  height: auto;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  object-fit: contain;
+}
+
+.gameContainer2 {
+  position: relative;
+  width: 25%;
+  max-width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+}
+
+.gameContainer2 img {
+  width: 100%;
+  height: auto;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  object-fit: contain;
+}
+
+.gameRow {
+  object-fit: contain;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph {
+  border: solid;
+  width: 100%; 
+  max-width: 100%; 
+  height: auto; 
+  display: flex;
+  flex-direction: column;
 }
