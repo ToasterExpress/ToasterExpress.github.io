@@ -409,3 +409,27 @@ img {
   vertical-align: middle;
   padding:10px;
 }
+
+.btnFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  text-decoration: none;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 2vw;
+  padding: 4px 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: heyComic, comicFont, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.btnFooter:hover {
+  background-color: black;
+}
